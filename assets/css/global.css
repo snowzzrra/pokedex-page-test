@@ -1,24 +1,38 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&family=Press+Start+2P&display=swap');
+
+* {
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
-body{
-    background-color: #f6f8fc;
+body {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/16c93e3b-ce11-48da-a4a8-ad1dca9081ec/dmh4ei-666ff8b3-1e52-4318-93a8-50fa1f33ab6c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzE2YzkzZTNiLWNlMTEtNDhkYS1hNGE4LWFkMWRjYTkwODFlY1wvZG1oNGVpLTY2NmZmOGIzLTFlNTItNDMxOC05M2E4LTUwZmExZjMzYWI2Yy5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.Ktgv0vpDRHcZ4SHaIFm-Zqz_gyM92dOk7Z3jFxi-4a0);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
 }
 
-.content{
+.content {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: #FFF;
 }
 
-@media screen and (min-width: 992px){
-    content{
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
         max-width: 992px;
         height: auto;
         margin: 1rem auto;
         border-radius: 1rem;
     }
 }
-
